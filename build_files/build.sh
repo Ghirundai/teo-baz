@@ -44,6 +44,7 @@ dnf -y install @xfce-desktop
 
 # DESKTOP APPS
 # terminal
+dnf copr enable scottames/ghostty
 dnf -y install ghostty
 # file manager
 dnf -y install pcmanfm
